@@ -1,9 +1,18 @@
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('Mona-Sans.woff2') format('woff2 supports variations'),
+      url('Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 130 1300;
+    font-stretch: 60% 130%;
+}
+
 body {
-    background-color: #2a2b2f; 
-    display: flex; 
+    background-color: #135261;
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    justify-content: center;
+    font-family: 'Mona Sans', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     color: #fff;
     text-align:center;
@@ -34,3 +43,5 @@ body {
         font-size: 22px;
     }
 }
+
+
